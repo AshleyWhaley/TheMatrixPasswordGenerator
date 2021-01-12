@@ -1,26 +1,37 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-//Prompt for length
-var passLength = prompt("Choose length of password. Enter length between of at least 8 but no more than 128 characters.");
-//Prompt for character type
-var charType = prompt("Enter character type: uppercase, lowercase, symbol, numeric.");
 
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
+
   passwordText.value = password;
 
 }
 
-//Initial Prompt
-document.getElementById("generate").addEventListener("click",)
-
-
-
-
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+// Variable Declaration 
+var confirmLength = "";
+
+ function generatePassword() {
+  var confirmLength = (prompt("Choose length of password. Enter length between of at least 8 but no more than 128 characters."));
+
+  // Loop if answer is outside the parameters 
+  while(confirmLength <= 8 || confirmLength >= 128) {
+      alert("...Well let's do this again, shall we?");
+      var confirmLength = (prompt("Choose length of password. Enter length between of at least 8 but no more than 128 characters."));
+      } 
+
+      // Repeat back how many charactes the user will have  
+      alert("Your password will have " + confirmLength + " characters.");
+
+
+
+
+
 
 // Generate a random lower case letter
 function getRandomLower() {
@@ -46,3 +57,4 @@ function getRandomUpper() {
    return symbols[Math.floor(Math.random() * symbols.length)];
  }
 console.log(getRandomSymbol());
+}
