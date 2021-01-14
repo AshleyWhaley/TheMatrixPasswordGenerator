@@ -10,6 +10,7 @@ This code is available for anyone interested in confusing any hacker and any use
 ### Link to Website
 [TheMatrixPasswordGenerator](https://ashleywhaley.github.io/TheMatrixPasswordGenerator/)
 
-####Incorrect Password Pathway 
+#### Incorrect Password Pathway Gif
 ![](Working.gif)
+### Correct Password Pathway Gif
 ![](Notworking.gif)
