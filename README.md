@@ -8,4 +8,8 @@ Everything requests a password today. I bet your average person uses their tried
 This code is available for anyone interested in confusing any hacker and any user. :smiley: I recommend this to any company who has inferior security and user with superior memory.
 
 ### Link to Website
+[TheMatrixPasswordGenerator](https://ashleywhaley.github.io/TheMatrixPasswordGenerator/)
 
+####Incorrect Password Pathway 
+!()[Working.gif]
+!()[Notworking.gif]
